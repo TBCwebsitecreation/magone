@@ -84,3 +84,47 @@ hr {
     height: 3px;
 
 }
+
+/* navigation menu  */
+.navbar{
+  justify-content: space-around;
+  display: flex;
+  line-height: 2.7em;
+  align-items: center;
+  min-height: 8vh;
+}
+.option{
+  text-decoration: none;
+  font-size: 22px;
+  color:black;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  top: 5px;
+  
+}
+.option:hover{
+  color: white;
+  background-color: #F24F1B;
+}
+.fa {
+  padding-right: 5px;
+}
+.signed {
+ border:none;
+}
+
+.fa-sort-down{
+  color: rgba(128, 128, 128, 0.418);
+  padding-left: 5px;
+}
+.active .fa-sort-down {
+  color: black;
+}
+
+.active{
+  background-color:#f21bc3;
+  color:white;
+}
+.option.active{
+  color: purple;
+}
